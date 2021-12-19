@@ -26,3 +26,19 @@ print(*a, sep = '')
 **Experience**
 - projeckt-manager
 - technical writer
+
+**Education**
+
+- Kazan National Research Technical University named after A. N. Tupolev – KAI 
+    - Institute for Radio-Electronics and Telecommunications
+    - Institute for Economics, Management and Social Technologies
+
+- Courses
+
+[“Generation Python” Course for beginners](https://stepik.org/course/58852)
+
+**Languages**
+
+- English  - level A2
+
+- Russian - Native
