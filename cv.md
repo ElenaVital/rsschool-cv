@@ -7,6 +7,7 @@
 - E-mail: elenkavital@gmail.com
 - GitHub: [ElenaVital](https://github.com/ElenaVital)
 - Discord: ElenaVital(@ElenaVital)
+
 **About me**
 
 I study frontend-stage 0 in RSSchool
