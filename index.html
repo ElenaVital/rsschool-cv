@@ -4,9 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">  
 </head>
-<body>
-    
+
+<body>   
+    <header class = "header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+<main class = "main">
+    <div class="container"> 
+            <div class = "info">        
+                <img src="assets/img/avatar.jpg" alt="photo_avatar" class = "avatar">
+                 <h1>Elena  <br> Ovcharova</h1>
+            </div> 
+
+            <section class="section" id = "contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>
+                    <img src="assets/facebook_icon.jpg" alt="facebook_icon" class = "icon">
+                    <a href="https://www.facebook.com/profile.php?id=100010537357300"> Elena Vital </a>
+                    </li>
+                    <li>
+                    <img src="assets/email_icon.png" alt="email_icon" class = "icon">
+                    elenkavital@gmail.com
+                    </li>
+                    <li>
+                    <img src="assets/github_icon.png" alt = "github_icon" class = "icon">
+                    <a href="https://github.com/ElenaVital"> ElenaVital </a>
+                    </li>
+                    <li>
+                    <img src="assets/discord-icon.jpg" alt = "discord" class = "icon">
+                    ElenaVital#1797
+                    </li>               
+                </ul>
+            </section>    
+            <section class="section" id="summary">
+                <h2>About me</h2>
+                Future frontend developer. Located in Kazan. Now I work as a project manager, technical writer,  manual QA engineer. I want to get  new skills.
+            </section> 
+
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+            <h2>Code example</h2> 
+                <pre>
+                    #solution of a quadratic equation
+                    def solve(a, b, c):
+                        D = b * b - 4 * a * c
+                        if D == 0:
+                            return -b / (2 * a), -b / (2 * a)
+                        else:
+                            x1 = (-b + (D ** 0.5)) / (2 * a)
+                            x2 = (-b - (D ** 0.5)) / (2 * a)
+                            return min(x1, x2), max(x1, x2)
+                        
+                    a, b, c = int(input()), int(input()), int(input())
+                    
+                    x1, x2 = solve(a, b, c)
+                    print(x1, x2)              
+                </pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2>Courses</h2> 
+                <a href="https://stepik.org/course/58852"> “Generation Python” Course for beginners </a>       
+            </section>
+
+<section class="section" id="projects">
+    <h2>Projects</h2>
+ In progress...     
+</section>
+
+<section class="section" id="education">
+    <h2>Education</h2>
+    <ul>
+        <li> Kazan National Research Technical University named after A. N. Tupolev – KAI / Institute for Radio-Electronics and Telecommunications </li>
+        <li> Kazan National Research Technical University named after A. N. Tupolev – KAI / Institute for Economics, Management and Social Technologies </li>
+    </ul>        
+</section>
+
+<section class="section" id="languages">
+    <h2>Languages</h2>
+    English   level A2          
+</section>
+    </div>
+</main>
+      
+<footer class = "footer">
+        <div class="center"> <a href="https://github.com/ElenaVital">
+            <img src="assets/github_icon.png" alt="github_icon" class = "iconFooter">
+        </a></div>
+        <div class="icon-rs"> <a href="http://rs.school/js">
+            <img src="assets/rs_school_js.svg" alt="rs" width="200">
+        </a></div>
+        <div class="center"> 2022 by Elena Ovcharova</div>
+</footer>
 </body>
 </html>
